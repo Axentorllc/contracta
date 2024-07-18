@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 17:35:41.894949",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "categorize",
+  "uom",
+  "qty",
+  "unit_cost",
+  "total_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "categorize",
+   "fieldtype": "Data",
+   "label": "Categorize"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "unit_cost",
+   "fieldtype": "Int",
+   "label": "Unit Cost"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Int",
+   "label": "Total Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-18 17:41:05.568757",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "Expense Schedule",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

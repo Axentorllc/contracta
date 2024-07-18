@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 16:33:43.266194",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "categorize",
+  "uom",
+  "qty",
+  "unit_cost",
+  "total_cost",
+  "tax",
+  "tax_value",
+  "total_after_tax"
+ ],
+ "fields": [
+  {
+   "fieldname": "categorize",
+   "fieldtype": "Data",
+   "label": "Categorize"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "unit_cost",
+   "fieldtype": "Int",
+   "label": "Unit Cost"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Int",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Percent",
+   "label": "Tax"
+  },
+  {
+   "fieldname": "tax_value",
+   "fieldtype": "Int",
+   "label": "Tax Value"
+  },
+  {
+   "fieldname": "total_after_tax",
+   "fieldtype": "Int",
+   "label": "Total After Tax"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-18 17:34:31.731308",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "Labor Costs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

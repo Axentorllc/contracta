@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 11:00:47.551123",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qawr",
+  "amended_from",
+  "basic_classification",
+  "clause",
+  "uom",
+  "qty",
+  "holder",
+  "column_break_ytai",
+  "project_serial",
+  "starting_date",
+  "ending_date",
+  "expected_time_to_deliver",
+  "section_break_llma",
+  "material_costs",
+  "labor_costs",
+  "equipment_costs",
+  "contractors_costs",
+  "expense_schedule",
+  "totals"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qawr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Costing Note",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "basic_classification",
+   "fieldtype": "Link",
+   "label": "Basic Classification",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "clause",
+   "fieldtype": "Link",
+   "label": "business clause name and it's ID",
+   "options": "Business Clause"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "holder",
+   "fieldtype": "Data",
+   "label": "Holder"
+  },
+  {
+   "fieldname": "column_break_ytai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_serial",
+   "fieldtype": "Link",
+   "label": "Project Serial",
+   "options": "Project"
+  },
+  {
+   "fieldname": "starting_date",
+   "fieldtype": "Date",
+   "label": "Starting Date"
+  },
+  {
+   "fieldname": "ending_date",
+   "fieldtype": "Date",
+   "label": "Ending Date"
+  },
+  {
+   "fieldname": "expected_time_to_deliver",
+   "fieldtype": "Data",
+   "label": "Expected Time to deliver"
+  },
+  {
+   "fieldname": "section_break_llma",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "material_costs",
+   "fieldtype": "Table",
+   "label": "Material Costs",
+   "options": "Materials Costs"
+  },
+  {
+   "fieldname": "equipment_costs",
+   "fieldtype": "Table",
+   "label": "Equipment Costs",
+   "options": "Equipment Costs"
+  },
+  {
+   "fieldname": "labor_costs",
+   "fieldtype": "Table",
+   "label": "Labor Costs",
+   "options": "Labor Costs"
+  },
+  {
+   "fieldname": "contractors_costs",
+   "fieldtype": "Table",
+   "label": "Contractors Costs",
+   "options": "Contractors Costs"
+  },
+  {
+   "fieldname": "expense_schedule",
+   "fieldtype": "Table",
+   "label": "Expense Schedule",
+   "options": "Expense Schedule"
+  },
+  {
+   "fieldname": "totals",
+   "fieldtype": "Table",
+   "label": "Totals",
+   "options": "Totals"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-18 18:04:48.707723",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "Costing Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

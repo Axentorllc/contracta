@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-17 17:24:17.584874",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "group",
+  "series",
+  "project_classification",
+  "clause",
+  "uom",
+  "column_break_cawa",
+  "qty",
+  "costing_note",
+  "total_cost",
+  "default_profit_margin",
+  "default_selling_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "group",
+   "fieldtype": "Link",
+   "label": "Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "series",
+   "fieldtype": "Data",
+   "label": "Series"
+  },
+  {
+   "fieldname": "project_classification",
+   "fieldtype": "Data",
+   "label": "Project classification"
+  },
+  {
+   "fieldname": "clause",
+   "fieldtype": "Data",
+   "label": "Clause"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "column_break_cawa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "costing_note",
+   "fieldtype": "Link",
+   "label": "Costing Note",
+   "options": "Costing Note"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Int",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "default_profit_margin",
+   "fieldtype": "Int",
+   "label": "Default profit margin"
+  },
+  {
+   "fieldname": "default_selling_price",
+   "fieldtype": "Int",
+   "label": "Default selling price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-18 18:09:59.184676",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "Business Clause",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

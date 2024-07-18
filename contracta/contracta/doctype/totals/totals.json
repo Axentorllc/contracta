@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 17:43:30.584569",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description_of_costs",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "description_of_costs",
+   "fieldtype": "Data",
+   "label": "Description Of Costs"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-18 17:50:55.466058",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "Totals",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
