@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2024-07-18 11:00:47.551123",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -13,6 +14,7 @@
   "qty",
   "holder",
   "column_break_ytai",
+  "naming_series",
   "project_serial",
   "starting_date",
   "ending_date",
@@ -132,15 +134,22 @@
    "fieldtype": "Table",
    "label": "Totals",
    "options": "Totals"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "COST-NOTE-.YYYY.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-18 18:04:48.707723",
+ "modified": "2024-07-21 12:51:23.651208",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "Costing Note",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

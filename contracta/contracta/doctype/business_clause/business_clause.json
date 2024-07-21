@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2024-07-17 17:24:17.584874",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -11,12 +12,14 @@
   "project_classification",
   "clause",
   "uom",
+  "naming_series",
   "column_break_cawa",
   "qty",
   "costing_note",
   "total_cost",
   "default_profit_margin",
-  "default_selling_price"
+  "default_selling_price",
+  "total"
  ],
  "fields": [
   {
@@ -75,12 +78,23 @@
    "fieldname": "default_selling_price",
    "fieldtype": "Int",
    "label": "Default selling price"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "series",
+   "options": "BUSINESS-CLS-.YYYY.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-07-18 18:09:59.184676",
+ "modified": "2024-07-21 13:03:47.429120",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "Business Clause",
