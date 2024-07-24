@@ -12,7 +12,7 @@
   "qty",
   "unit_cost",
   "column_break_gwui",
-  "total_cost",
+  "amount",
   "tax",
   "tax_value",
   "grand_total_with_tax"
@@ -51,11 +51,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "total_cost",
-   "fieldtype": "Int",
-   "label": "Total Cost"
-  },
-  {
    "fieldname": "tax",
    "fieldtype": "Percent",
    "label": "Tax"
@@ -69,12 +64,17 @@
    "fieldname": "grand_total_with_tax",
    "fieldtype": "Int",
    "label": "Grand Total With Tax"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Int",
+   "label": "Amount"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-07-23 13:42:06.695525",
+ "modified": "2024-07-24 12:51:12.365575",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "CostType",

@@ -10,8 +10,6 @@
   "amended_from",
   "basic_classification",
   "clause",
-  "uom",
-  "qty",
   "holder",
   "column_break_ytai",
   "naming_series",
@@ -20,13 +18,8 @@
   "ending_date",
   "expected_time_to_deliver",
   "section_break_llma",
-  "material_costs",
-  "labor_costs",
-  "equipment_costs",
-  "contractors_costs",
-  "expense_schedule",
-  "totals",
-  "costtype"
+  "costtype",
+  "totals"
  ],
  "fields": [
   {
@@ -52,19 +45,8 @@
   {
    "fieldname": "clause",
    "fieldtype": "Link",
-   "label": "business clause name and it's ID",
+   "label": "clause",
    "options": "Business Clause"
-  },
-  {
-   "fieldname": "uom",
-   "fieldtype": "Link",
-   "label": "UOM",
-   "options": "UOM"
-  },
-  {
-   "fieldname": "qty",
-   "fieldtype": "Int",
-   "label": "Qty"
   },
   {
    "fieldname": "holder",
@@ -101,36 +83,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "material_costs",
-   "fieldtype": "Table",
-   "label": "Material Costs",
-   "options": "Materials Costs"
-  },
-  {
-   "fieldname": "equipment_costs",
-   "fieldtype": "Table",
-   "label": "Equipment Costs",
-   "options": "Equipment Costs"
-  },
-  {
-   "fieldname": "labor_costs",
-   "fieldtype": "Table",
-   "label": "Labor Costs",
-   "options": "Labor Costs"
-  },
-  {
-   "fieldname": "contractors_costs",
-   "fieldtype": "Table",
-   "label": "Contractors Costs",
-   "options": "Contractors Costs"
-  },
-  {
-   "fieldname": "expense_schedule",
-   "fieldtype": "Table",
-   "label": "Expense Schedule",
-   "options": "Expense Schedule"
-  },
-  {
    "fieldname": "totals",
    "fieldtype": "Table",
    "label": "Totals",
@@ -152,7 +104,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-23 13:43:04.997310",
+ "modified": "2024-07-24 12:48:13.969866",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "Costing Note",
