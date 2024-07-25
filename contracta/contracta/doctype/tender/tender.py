@@ -6,4 +6,10 @@ from frappe.model.document import Document
 
 
 class Tender(Document):
-	pass
+
+	def validate(self):
+		for boq in self.boqs:
+			if boq.total_costing and boq.margin:
+				boq.amount = boq.total_costing + boq.margin
+			elif boq.total_costing and boq.amount:
+				boq.margin = boq.amount - boq.total_costing

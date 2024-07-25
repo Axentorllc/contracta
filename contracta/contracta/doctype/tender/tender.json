@@ -10,26 +10,30 @@
   "section_break_zpnx",
   "amended_from",
   "tender_type",
+  "naming_series",
+  "project_engineer",
+  "column_break_raoz",
   "project",
   "project_processing_status",
   "project_classification",
+  "section_break_pgaa",
   "customer",
   "bid_number",
   "bid_date",
-  "down_payment_discount_rate",
-  "project_engineer",
-  "column_break_juri",
-  "naming_series",
-  "description",
+  "rating_section",
   "business_guarantee_discount_rate",
+  "down_payment_discount_rate",
+  "description_section",
+  "description",
   "boq_tab",
+  "boqs_section",
   "boqs"
  ],
  "fields": [
   {
    "fieldname": "section_break_zpnx",
    "fieldtype": "Section Break",
-   "label": "Tender Details"
+   "label": "Details"
   },
   {
    "fieldname": "amended_from",
@@ -82,10 +86,6 @@
    "label": "Down Payment Discount Rate"
   },
   {
-   "fieldname": "column_break_juri",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
@@ -109,7 +109,7 @@
    "fieldname": "boqs",
    "fieldtype": "Table",
    "label": "BOQs",
-   "options": "Business Clause"
+   "options": "BOQ"
   },
   {
    "fieldname": "project",
@@ -127,12 +127,35 @@
    "fieldtype": "Select",
    "label": "series",
    "options": "TDR-.YYYY.-"
+  },
+  {
+   "fieldname": "column_break_raoz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_pgaa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rating_section",
+   "fieldtype": "Section Break",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "description_section",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "boqs_section",
+   "fieldtype": "Section Break",
+   "label": "BOQs"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-21 12:59:48.303145",
+ "modified": "2024-07-25 11:44:28.810081",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "Tender",

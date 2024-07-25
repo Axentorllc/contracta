@@ -7,13 +7,11 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_qawr",
-  "amended_from",
-  "basic_classification",
-  "clause",
-  "holder",
-  "column_break_ytai",
   "naming_series",
   "project_serial",
+  "amended_from",
+  "holder",
+  "column_break_ytai",
   "starting_date",
   "ending_date",
   "expected_time_to_deliver",
@@ -35,18 +33,6 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
-  },
-  {
-   "fieldname": "basic_classification",
-   "fieldtype": "Link",
-   "label": "Basic Classification",
-   "options": "Item Group"
-  },
-  {
-   "fieldname": "clause",
-   "fieldtype": "Link",
-   "label": "clause",
-   "options": "Business Clause"
   },
   {
    "fieldname": "holder",
@@ -80,7 +66,8 @@
   },
   {
    "fieldname": "section_break_llma",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Costing Section"
   },
   {
    "fieldname": "totals",
@@ -97,14 +84,14 @@
   {
    "fieldname": "costtype",
    "fieldtype": "Table",
-   "label": "CostType",
+   "label": "Costing",
    "options": "CostType"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-24 12:48:13.969866",
+ "modified": "2024-07-25 11:29:24.815334",
  "modified_by": "Administrator",
  "module": "Contracta",
  "name": "Costing Note",

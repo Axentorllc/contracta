@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-24 15:18:03.642600",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "boqs_section",
+  "item",
+  "costing_note",
+  "item_tax",
+  "column_break_kifb",
+  "total_costing",
+  "margin",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "boqs_section",
+   "fieldtype": "Section Break",
+   "label": "BOQs"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "costing_note",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Costing Note",
+   "options": "Costing Note"
+  },
+  {
+   "fieldname": "item_tax",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Item Tax"
+  },
+  {
+   "fieldname": "column_break_kifb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_costing",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Costing"
+  },
+  {
+   "fieldname": "margin",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Margin"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-25 11:27:46.729064",
+ "modified_by": "Administrator",
+ "module": "Contracta",
+ "name": "BOQ",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
